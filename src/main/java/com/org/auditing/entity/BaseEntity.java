@@ -25,7 +25,6 @@ import lombok.experimental.FieldDefaults;
 @NoArgsConstructor
 public abstract class BaseEntity
 {
-
 	@CreatedDate
 	@Column(updatable = false)
 	LocalDateTime createdAt;

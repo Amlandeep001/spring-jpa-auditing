@@ -19,7 +19,6 @@ import lombok.experimental.FieldDefaults;
 @Builder
 public class Account
 {
-
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	Long id;
