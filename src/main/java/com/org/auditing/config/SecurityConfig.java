@@ -21,7 +21,7 @@ public class SecurityConfig
 	@Bean
 	UserDetailsService userDetailsService()
 	{
-		UserDetails user1 = User.withUsername("javatechie")
+		UserDetails user1 = User.withUsername("amlandeep")
 				.password("{noop}password123") // Keep {noop} for plain text passwords
 				.roles("USER")
 				.build();
